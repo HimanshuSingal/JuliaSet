@@ -1,0 +1,6 @@
+1.)Compile the c++ code using 
+g++ programname.cpp
+2.)Run the executable file and redirect its output to a file
+ ./a.out > out.txt
+3.)Next use gnuplot for plotting the points we got
+gnuplot>plot 'out.txt' 1:2
